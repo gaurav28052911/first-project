@@ -1,25 +1,78 @@
-<!doctype html>
-<html>
-  <head>
-    <title> MY FIRST WEBSITE </title>
-    <meta charset="utf-8"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hero unit</title>
     <link rel="stylesheet" href="style.css">
-  </head>
- <body>
-   <div>
-    <h1> MY FIRST WEBSITE </h1>
-     <p>visit to my website! here are some things i enjoy</p>
-     <p>second line of website</p>
-      <ul><li>web development</li>
-          
-          <li>reading</li>
-          <li>learning</li>
-      </ul>  
-   <h2><strong>Quotes</strong></h2>
-     <p id="first"> hsgdfg</p>
-     <p id="second"> vxhgdfh</p>
-   
+    
+</head>
+<!--body starts here-->
 
-  </div>
+<body>
+    <header class="header-section">
+        <img  class="logo" src="./logos.jpg" alt="Display Not Found">
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+
+        </ul>
+        <button class="signup-button">Sign up</button>
+    </header>
+    <main>
+        <!--hero unit starts here-->
+
+        <section class="hero-unit-section">
+            <h1><center>Full stack at stackroute</center></h1>
+            <p><center>Information Technology and Services</center></p>
+        </section>
+        <!--paper layout starts here-->
+
+        <section class="card-container">
+            <h2>Technoligies offered</h2>
+            
+            <section class="cardholder">
+                <section class="card">
+                    <h3>Full stack developer(java)</h3>
+                    <img src="./java logo.png" alt="">
+                </section>
+                <section class="card">
+                    <h3>Full stack developer(.net)</h3>
+                    <img src="./net.jpg" alt="">
+                </section>
+                <section class="card">
+                    <h3>Full stack developer(Mean)</h3>
+                    <img src="./full stack.png" alt="">
+                </section>
+            </section>
+        </section>
+    </main>
+<div class="back">
+    <!-- footer section starts here-->
+
+    <center>
+    <table width="1200"><tr><td style="text-align:center"><font style="color:#fff">About Us</font></td>
+            <td width="20%" style="text-align: center"><font style="color:#fff">Useful Links</font>
+            <br><a href="admin.html" style="color: blue">administration</a>
+            <br><a href="news.html" style="color: blue">News Feed</a>
+            <br><a href="contact.html" style="color: blue">Contact us</a>
+
+            <div style="width: 500px; text-align:justify;color: #000000>
+
+            </div>
+        </td> 
+            <td width="35%">
+
+    <div id="footer">
+    <a href="http://www.google.com" target="New Window"><img src="./google.png" width="40" height="40" alt="google" id="goog"/></a>
+    <a href="http://www.twitter.com" target="New Window"><img src="./twitter.png" width="40" height="40" alt="twitter" id="twi"/></a>
+    <a href="http://www.facebook.com" target="New Window"><img src="./fb.png" width="40" height="40" alt="facebook" id="face"/></a>
+    <h4><marquee behavior="" direction="">@2019 stackroute.com copyright</marquee></h4>
+                    </td></tr></table></center>
+    </div>    
+</div>
 </body>
 </html>
