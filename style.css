@@ -3,7 +3,7 @@ body{
 }
 .header-section{
     height:15vh;
-    background-color:#82b1ff;
+    background-color:cadetblue;
     border-bottom:3px solid green;
     display:flex;
     flex-direction:row;
@@ -46,7 +46,7 @@ header.header-section li a:hover{
     background-image: url("./Stack-Route-optimized.png");
     height: 50vh;
     font-weight: bold;
-
+    text-align: center;
     
 }
 
@@ -91,8 +91,4 @@ border:2px
 #footer a #footer:hover{
     background-color: #003366;
     border-radius: 20px 20px 20px 20px;
-}
-.back {
-    background-image: url(./img/grey_img.jfif);
-    height: 100px;
 }
